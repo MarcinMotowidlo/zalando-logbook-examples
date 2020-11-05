@@ -1,0 +1,10 @@
+<included>
+  <property name="logPattern" value="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%X{trackingKey}] %c{1} - %msg%n"/>
+
+  <appender name="CONSOLE_APP" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${logPattern}</pattern>
+      <charset>UTF-8</charset>
+    </encoder>
+  </appender>
+</included>

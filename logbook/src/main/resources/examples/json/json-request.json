@@ -1,0 +1,36 @@
+[TRACE] 2020-11-05 11:52:08.218 [http-nio-8080-exec-1] [] o.z.l.Logbook -
+{
+  "origin": "remote",
+  "type": "request",
+  "correlation": "b1fe3e9f4daff816",
+  "protocol": "HTTP/1.1",
+  "remote": "0:0:0:0:0:0:0:1",
+  "method": "GET",
+  "uri": "http://localhost:8080/logbook-examples/cars/randomCars",
+  "headers": {
+    "accept": [
+      "*/*"
+    ],
+    "accept-encoding": [
+      "*"
+    ],
+    "accept-language": [
+      "*"
+    ],
+    "connection": [
+      "keep-alive"
+    ],
+    "from": [
+      "some@email.com"
+    ],
+    "host": [
+      "localhost:8080"
+    ],
+    "postman-token": [
+      "dea43b0d-58df-4803-a791-6a1fd176ed83"
+    ],
+    "user-agent": [
+      "PostmanRuntime/7.26.5"
+    ]
+  }
+}

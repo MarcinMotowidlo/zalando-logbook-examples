@@ -1,0 +1,8 @@
+[TRACE] 2020-11-05 12:06:50.181 [http-nio-8080-exec-1] [] o.z.l.Logbook - Outgoing Response: 995514bc1d3a1f7e
+Duration: 82 ms
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 05 Nov 2020 11:06:50 GMT
+Transfer-Encoding: chunked
+
+[{"name":"Lexus","registration":"A","purchaseDate":null,"nextMaintanance":"2021-01-05T12:06:50.128645","engineDetails":{"displacement":3000,"brand":"Lexus","engineType":"DIESEL","lastMaintenance":"2020-11-05T11:06:50.130628800Z"}},{"name":"Subaru","registration":"B","purchaseDate":null,"nextMaintanance":"2020-11-05T12:06:50.1306288","engineDetails":{"displacement":2500,"brand":"Subaru","engineType":"GASOLINE","lastMaintenance":"2020-11-05T11:06:50.130628800Z"}},{"name":"Toyota","registration":"C","purchaseDate":null,"nextMaintanance":"2020-11-05T12:06:50.1306288","engineDetails":{"displacement":1600,"brand":"Toyota","engineType":"HYBRID","lastMaintenance":"2020-11-05T11:06:50.130628800Z"}}]

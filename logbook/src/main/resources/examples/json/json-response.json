@@ -1,0 +1,58 @@
+[TRACE] 2020-11-05 11:55:50.143 [http-nio-8080-exec-6] [] o.z.l.Logbook -
+{
+  "origin": "local",
+  "type": "response",
+  "correlation": "b1fe3e9f4daff816",
+  "duration": 1,
+  "protocol": "HTTP/1.1",
+  "status": 200,
+  "headers": {
+    "Content-Type": [
+      "application/json;charset=UTF-8"
+    ],
+    "Date": [
+      "Thu, 05 Nov 2020 10:55:50 GMT"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ]
+  },
+  "body": [
+    {
+      "name": "Lexus",
+      "registration": "A",
+      "purchaseDate": null,
+      "nextMaintanance": "2021-01-05T11:55:50.1423015",
+      "engineDetails": {
+        "displacement": 3000,
+        "brand": "Lexus",
+        "engineType": "DIESEL",
+        "lastMaintenance": "2020-11-05T10:55:50.142301500Z"
+      }
+    },
+    {
+      "name": "Subaru",
+      "registration": "B",
+      "purchaseDate": null,
+      "nextMaintanance": "2020-11-05T11:55:50.1423015",
+      "engineDetails": {
+        "displacement": 2500,
+        "brand": "Subaru",
+        "engineType": "GASOLINE",
+        "lastMaintenance": "2020-11-05T10:55:50.142301500Z"
+      }
+    },
+    {
+      "name": "Toyota",
+      "registration": "C",
+      "purchaseDate": null,
+      "nextMaintanance": "2020-11-05T11:55:50.1423015",
+      "engineDetails": {
+        "displacement": 1600,
+        "brand": "Toyota",
+        "engineType": "HYBRID",
+        "lastMaintenance": "2020-11-05T10:55:50.142301500Z"
+      }
+    }
+  ]
+}

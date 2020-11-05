@@ -1,0 +1,6 @@
+<included>
+  <root>
+    <level value="INFO"/>
+    <appender-ref ref="CONSOLE_APP"/>
+  </root>
+</included>

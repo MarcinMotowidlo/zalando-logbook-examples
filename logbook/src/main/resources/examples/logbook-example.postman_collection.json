@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "ba6c3f5f-2f94-436a-8f1e-bbda93b642bd",
+		"name": "logbook-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-some-cars",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Encoding",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "From",
+						"value": "some@email.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/logbook-examples/cars/randomCars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"logbook-examples",
+						"cars",
+						"randomCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-exdluded-car",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Encoding",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "From",
+						"value": "some@email.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/logbook-examples/cars/excludedCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"logbook-examples",
+						"cars",
+						"excludedCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-exception",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Encoding",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "*",
+						"type": "text"
+					},
+					{
+						"key": "From",
+						"value": "some@email.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/logbook-examples/cars/exception",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"logbook-examples",
+						"cars",
+						"exception"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

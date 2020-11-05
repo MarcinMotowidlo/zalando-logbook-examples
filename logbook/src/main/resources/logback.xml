@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+
+  <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+  <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
+
+  <property name="logPath" value="logs"/>
+
+  <include resource="logback-appenders.xml"/>
+  <include resource="logback-loggers.xml"/>
+
+</configuration>
